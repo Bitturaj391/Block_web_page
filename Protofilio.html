@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bittu_portofilio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background:url(wallpaper1.jpg);
+            background-repeat:no-repeat;
+            background-size:auto;
+        }
+        header{
+        background: url(background.jpg);
+        padding: 30px;
+        text-align: center;
+        font: size 35px;
+        color: black;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 300px;
+            background: url(nav_wallpaper2.jpg);
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+                height: 300px;
+            }
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+                background-color: azure;
+            }
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            @media (max-width: 600px) {
+                    nav, article {
+                    width: 100%;
+                    height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1> Welcome to the Bittu's Portofilio website</h1>
+    <p>This Protofilio is designed by Bittu Raj, a computer Science and Engineering Student.</p>
+    <p>Hello, I am Bittu Raj a Computer science student at Mit meerut Institute of Technology, mmeerut.<br> 
+        I have completed my primary Education from Oxbridge International School,Gaya,Biharang<br>
+        And secondary education from Jhawahar Lal Nehru collage, Nawada, Bihar<br></p>
+    <header>
+        <h2>Bittu's Profile</h2>
+    </header>
+    <section>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact info</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <article>
+            <h1>Welcome</h1>
+            <p>I welcome you</p>
+            <p>It's my pleasure to see you here.<br>I was very excited to see you.<br>We're Looking Forward To Having You Again As Our Guest</p>
+        </article>
+    </section>
+    <footer>Thank you for visiting</footer>
+</body>
+</html>
